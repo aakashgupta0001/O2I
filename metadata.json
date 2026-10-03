@@ -1,0 +1,6 @@
+{
+  "name": "O2I",
+  "description": "O2I Bluetooth office attendance tracker with automated morning arrival and evening exit detection and live Excel monthly attendance reports for Drone, TDF, Simulator, Robotics, and PCB teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

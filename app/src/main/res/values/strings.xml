@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">O2I</string>
+    <string name="nav_gate_scanner">Gate Radar</string>
+    <string name="nav_attendance_log">Excel Log</string>
+    <string name="nav_employees">Roster</string>
+    <string name="gate_header_title">O2I Bluetooth Gate Hub</string>
+    <string name="gate_header_subtitle">Auto-detects employee arrival in morning &amp; exit in evening</string>
+    <string name="btn_enable_bluetooth">Turn On Admin Bluetooth</string>
+    <string name="btn_start_gate_scan">Start Morning/Exit Gate Radar</string>
+    <string name="btn_stop_gate_scan">Stop Gate Radar</string>
+    <string name="btn_employee_beacon">Broadcast O2I BLE Pass</string>
+    <string name="btn_export_excel">Save Excel (.xls)</string>
+    <string name="btn_share_excel">Share Excel Workbook</string>
+    <string name="btn_export_csv">Export CSV</string>
+    <string name="btn_add_employee">Register Employee</string>
+</resources>
