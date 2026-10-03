@@ -1,0 +1,19 @@
+workflows:
+  android-o2i-apk:
+    name: O2I Android APK Build
+    max_build_duration: 30
+    instance_type: linux_x2
+    environment:
+      java: 21
+    scripts:
+      - name: Restore debug keystore
+        script: |
+          if [ -f "debug.keystore.base64" ] && [ ! -f "debug.keystore" ]; then
+            base64 -d debug.keystore.base64 > debug.keystore
+          fi
+          chmod +x gradlew
+      - name: Build Debug APK
+        script: |
+          ./gradlew assembleDebug
+    artifacts:
+      - app/build/outputs/**/*.apk
